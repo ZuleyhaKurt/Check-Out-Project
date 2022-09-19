@@ -1,0 +1,124 @@
+@media screen and (max-width: 1600px) {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Times New Roman", Times, serif;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+    .image {
+      border-radius: 10px;
+      background-color: #eeeeee;
+      padding: 10px 20px;
+      display: flex;
+      flex-direction: column;
+      height: 40rem;
+      width: 40%;
+    }
+    img {
+      width: 120px;
+      height: 180px;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+  
+    .box2 {
+      display: flex;
+      margin: 10px 0;
+    }
+    h2 {
+      font-size: 1rem;
+      color: #4e5150;
+      margin: 5px 0;
+    }
+    .value {
+      display: flex;
+      flex-direction: column;
+    }
+    .quantity {
+      display: flex;
+      border: 1px solid rgb(136, 136, 136);
+      border-radius: 5px;
+      justify-content: space-around;
+      align-items: center;
+      width: 90%;
+      margin-top: 25px;
+    }
+    .quantity button {
+      margin: 5px 0;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      text-align: center;
+      padding: 5px;
+      border: none;
+      width: 1.5rem;
+      height: 1.5rem;
+      color: #333;
+      cursor: pointer;
+    }
+    .quantity p {
+      line-height: 24px;
+      color: black;
+    }
+    .price {
+      font-size: 1rem;
+      color: #f2994a;
+      font-weight: 600;
+    }
+    .btnrmv {
+      background-color: rgb(230, 40, 40);
+      color: #e0e0e0;
+      border-style: none;
+      width: 4rem;
+      padding: 0.3rem;
+      border-radius: 2px;
+      margin: 0.3rem 0 0.7rem 0;
+      cursor: pointer;
+    }
+    span {
+      
+      font-size: 0.8rem;
+      color: black;
+    }
+    .through{
+      text-decoration: line-through;
+    }
+    .box3 {
+      display: flex;
+      justify-content: space-between;
+      border-top: 1px solid #bdbdbd;
+      margin: 5px 0;
+    }
+    .box3__top {
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 540px) {
+   
+   
+    
+   
+    
+  
+    .image {
+      height: 25rem;
+      width: 90vw;
+      grid-area: 1/1;
+    }
+  
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      width: 40%;
+    }
+  }
+  
